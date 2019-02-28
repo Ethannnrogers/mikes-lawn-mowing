@@ -563,3 +563,30 @@ color: #777;
 #footer a:hover {
 	color: #ccc;
 }
+
+
+@media only screen and (max-width: 425px) {
+	#main-logo {
+		height: 140px;
+		width: auto;
+		margin-top: -45px;
+	}
+	#header h1 {
+		font-size: 35px;
+	}
+	#slogan {
+		font-size: 17px;
+	}
+	body {
+		text-align: center!important;
+	}
+	.about-text {
+		padding-right: 0px!important;
+	}
+	#services h2 {
+		font-size: 40px;
+	}
+	hr {
+		width: 100%;
+	}
+}
