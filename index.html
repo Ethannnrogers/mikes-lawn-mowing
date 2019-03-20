@@ -345,17 +345,17 @@
     </div>
     <div class="col-md-8 col-md-offset-2">
       <h3 id="quote">Get A Free Quote</h3>
-      <form name="sentMessage" id="contactForm" action="https://formspree.io/mikeslawnmowing@gmail.com" method="POST">
+      <form action="https://formspree.io/mikeslawnmowing@gmail.com" method="POST">
         <div class="row">
           <div class="col-md-6">
             <div class="form-group">
-              <input type="text" id="first-name" class="form-control" placeholder="First Name" required="required">
+              <input type="text" id="first-name" class="form-control" placeholder="First Name" required="required" name="First Name">
               <p class="help-block text-danger"></p>
             </div>
           </div>
           <div class="col-md-6">
             <div class="form-group">
-              <input type="text" id="last-name" class="form-control" placeholder="Last Name" required="required">
+              <input type="text" id="last-name" class="form-control" placeholder="Last Name" required="required" name="Last Name">
               <p class="help-block text-danger"></p>
             </div>
           </div>
@@ -363,13 +363,13 @@
         <div class="row">
           <div class="col-md-6">
             <div class="form-group">
-              <input type="text" id="phone" class="form-control" placeholder="Phone Number" required="required">
+              <input type="text" id="phone" class="form-control" placeholder="Phone Number" required="required" name="Phone">
               <p class="help-block text-danger"></p>
             </div>
           </div>
           <div class="col-md-6">
             <div class="form-group">
-              <input type="email" id="company" class="form-control" placeholder="Email" required="required">
+              <input type="email" id="company" class="form-control" placeholder="Email" required="required" name="Email">
               <p class="help-block text-danger"></p>
             </div>
           </div>
@@ -377,7 +377,7 @@
         <div class="row">
           <div class="col-md-12">
             <div class="form-group">
-              <input type="text" id="city" class="form-control" placeholder="Street Address" required="required">
+              <input type="text" id="address" class="form-control" placeholder="Street Address" required="required" name="Address">
               <p class="help-block text-danger"></p>
             </div>
           </div>
@@ -385,26 +385,26 @@
         <div class="row">
           <div class="col-md-6">
             <div class="form-group">
-              <input type="text" id="city" class="form-control" placeholder="City" required="required">
+              <input type="text" id="city" class="form-control" placeholder="City" required="required" name="City">
               <p class="help-block text-danger"></p>
             </div>
           </div>
           <div class="col-md-6">
             <div class="form-group">
-              <input type="text" id="state" class="form-control" placeholder="State" required="required">
+              <input type="text" id="state" class="form-control" placeholder="State" required="required" name="State">
               <p class="help-block text-danger"></p>
             </div>
           </div>
         </div>
 
         <div class="form-group">
-          <textarea name="message" id="message" class="form-control" rows="4" placeholder="Message"></textarea>
+          <textarea name="message" id="message" class="form-control" rows="4" placeholder="Message" name="Message"></textarea>
           <p class="help-block text-danger"></p>
         </div>
         <div id="success"></div>
         <!-- <button type="submit" class="btn btn-custom btn-lg">Get Quote</button> -->
         <div class="form-group">
-          <input class="btn btn-custom btn-lg" type="submit" value="GET QUOTE" class="btn btn-subscribe"></input type="submit" value="Send">
+          <input class="btn btn-custom btn-lg" type="submit" value="GET QUOTE"></input type="submit" value="Send">
       </div>
       </form>
     </div>
